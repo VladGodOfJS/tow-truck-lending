@@ -1,0 +1,700 @@
+/* спецификация */
+
+body {
+	text-decoration: none;
+	font-family: 'Play', sans-serif;
+	
+}
+ul li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+/*  */
+
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+.container {
+	border: 1px solid green;
+}
+.grey-line {
+	background-color: grey;
+	padding: 8px 0;
+}
+.main-logo {
+	display: flex;
+	text-decoration: none;
+}
+.main-logo img {
+	height: 75px;
+}
+.main-logo h1 {
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 11px;
+	margin-left: 20px;
+	color: steelblue;
+	font-weight: bolder;
+}
+.nav-link {
+	padding: 15px;
+	margin-top: 12px;
+	color: #444;
+	font-weight: bold;
+}
+.main-title {
+	background-color: #42a5f5;
+	color: #fff;
+	margin-top: 20px;
+	padding: 10px;
+}
+.block-adv {
+	background-image: url('/evakuator-odessa.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	padding: 70px 0;
+	margin: 40px 0 0 0;
+}
+.block-adv ul {
+	margin: 0 auto;
+}
+.block-adv ul li {
+	margin: 1% 2%;
+	font-size: 26px;
+	list-style: none;
+}
+.main .about {
+	margin: 0 auto;
+}
+.main .about p {
+	font-size: 32px;
+	line-height: 40px;
+	font: weight bold;
+	letter-spacing: 2px;
+}
+.main .about span, .phone span, .check__price span {
+	color: green
+}
+.main .price li {
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+.main .price .price__item {
+	font-size: 20px;
+	font-weight: bolder;
+	color: #000;
+	text-decoration: none;
+	
+}
+ .main .price {
+	 padding: 0;
+}
+.main .price .price__item:hover {
+	color: #c62828;
+}
+.main .price .price__title {
+	color: grey;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 10px;
+	letter-spacing: 2px;
+}
+.price__title span {
+	font-weight: bolder;
+}
+span {
+	color: red;
+}
+.phone {
+	background-color: #fdd835;
+}
+.phone__icon {
+	font-size: 52px;
+}
+.call {
+	font-size: 22px;
+	font-weight: bolder;
+}
+.call p {
+	text-shadow: 4px 4px 5px #AAAAAA;
+	color: #000;
+}
+.your__call {
+	padding: 5px 56px;
+	border: 3px solid whitesmoke;
+	border-radius: 4px;
+	outline: none;
+	color: grey;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+.your__call:hover {
+	color: #000;
+}
+.submit__call {
+	padding: 5px 114px;
+	position: relative;
+	left: 34px;
+}
+
+.main-service .size {
+	margin-top: 50px;
+}
+.photo__service {
+	height: 100px;
+}
+section {
+	width: 300px;
+	margin-left: 15px;
+}
+section .slogan {
+	font-size: 18px;
+	font-weight: bolder;
+}
+section p {
+	line-height: 19px;
+	font-size: 13px;
+}
+.check-card, .info-block {
+	width: 450px;
+	height: 540px;
+	margin-top: 50px;
+	font-family: 'Exo 2', sans-serif;
+}
+.check-card {
+	width: 350px;
+	border: 1px solid grey;
+	background-color: #f1f1f1;
+}
+.check-card .pay__title {
+	font-size: 24px;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+0,61c419+50,b4e391+100;Green+3D */
+	background: #b4e391;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #b4e391 0%, #28a745 50%, #b4e391 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #b4e391 0%, #28a745 50%, #b4e391 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #b4e391 0%, #28a745 50%, #b4e391 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391', GradientType=0);
+	/* IE6-9 */
+}
+.check-card .check__cars, .blocked__service, .check__km {
+	padding: 0px 10px;
+}
+.check-card .car__down, .blocked__service {
+	margin-top: 15px;
+}
+.check-card .car-help {
+	margin-left: 30px;
+}
+.check-card form a {
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 15px;
+}
+.check-card a:hover {
+	color: #000;
+}
+.check-card #select {
+	outline: none;
+	height: 20px;
+	font-size: 13px;
+	margin-top: 5px;
+	margin-left: 5px;
+	letter-spacing: 1px;
+}
+.check-card img{
+	width: 80px;
+	margin-left: 10px;
+}
+.check-card label{
+	cursor: pointer;
+}
+.check-card .type__auto {
+	margin-top: 20px;
+}
+.check-card .check__title {
+	font-size: 18px;
+	font-weight: bolder;
+	color: #28a745;
+}
+.check-card .check__num {
+	margin: 10px auto;
+}
+.check-card .check__phone {
+	padding: 6px 64px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	outline: none;
+}
+.check-card .checkbox__position {
+	margin-top: 7px;
+	margin-left: 3px;
+}
+.check-card .check__price {
+	font-size: 20px;
+	color: gray;
+	margin-top: 10px;
+	font-weight: bolder;
+}
+.check-card .check__num .btn {
+	color: #fff;
+	font-size: 18px;
+	padding: 9px 55px;
+	outline: none;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb76b+0,ffa73d+50,ff7c00+51,ff7f04+100;Orange+Gloss */
+	background: #ffb76b;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04', GradientType=0);
+	/* IE6-9 */
+}
+/* .call__icon {
+	position: relative;
+	bottom: 35px;
+	right: 155px;
+	font-size: 25px;
+} */
+
+.main-section__body{
+	border: 1px solid red;
+	display: flex;
+	padding: 15px;
+	margin-top: 30px;
+}
+.info__title, .ready__truck {
+	font-weight: bold;
+	font-size: 20px;
+}
+.main-service .info__text {
+	font-size: 14px;
+}
+.main-service .info__text span {
+	font-weight: bolder;
+	color: #000;
+}
+.main-service .info__top {
+	margin-top: 70px;
+	font-size: 28px;
+	font-weight: bolder;
+}
+.text__top {
+	line-height: 24px;
+}
+.table {
+	margin-top: 30px;
+}
+.main-service.ready__truck {
+	margin-left: 10px;
+}
+.ready__truck {
+	font-size: 20px;
+	font-weight: 500;
+}
+.main-service .num__truck {
+	font-size: 55px;
+	color: #42a5f5;
+	font-weight: 100;
+}
+.main-service .block-current {
+	background-image: url('/img/evakuator-odessa.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	padding: 25px 0;
+}
+.num__right, .ready__right {
+	margin-left: 50px;
+}
+.ready__left, .num__left {
+	margin-right: 60px;
+}
+.main-service .call__us {
+	margin-top: 50px;
+	color: #444;
+	font-size: 28px;
+	font-family: 'Headland One', serif;
+	font-weight: bold;
+}
+.main-service .call__num {
+	margin-top: 10px;
+	color: #42a5f5;
+	font-size: 40px;
+}
+.photo-service{
+   padding:50px;
+   position: relative;
+}
+
+.photo-service img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+ }
+.yellow-line {
+	background-color: #fdd835;
+	padding: 10px 0;
+}
+.wrap-slider {
+	margin-top: 20px;
+}
+.wrap-slider img {
+	padding: 10px;
+}
+.map-responsive {
+	overflow: hidden;
+	padding-bottom: 27%;
+	position: relative;
+	height: 0;
+	background-color: red;
+}
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.statistic section {
+	width: 200px;
+	margin-top: 20px;
+}
+.statistic .title__stat {
+	font-size: 30px;
+	color: #28a745;
+	font-weight: 600;
+}
+.statistic p {
+	font-size: 16px;
+	color: #444;
+}
+.rules .rule__title {
+	font-size: 20px;
+	font-weight: bolder;
+}
+.rules .rule__upper {
+	font-size: 13px;
+}
+.rules .rule__items {
+	margin-left: 60px;
+}
+.rules .rule__item {
+	padding: 5px 0;
+	list-style: none;
+}
+.rules .rule__before1:before {
+	content: "1.";
+	color: #AAAAAA;
+	font-size: 30px;
+	margin-right: 20px;
+}
+.rules .rule__before2:before {
+	content: "2.";
+	color: #AAAAAA;
+	font-size: 30px;
+	margin-right: 20px;
+}
+.rules .rule__before3:before {
+	content: "3.";
+	color: #AAAAAA;
+	font-size: 30px;
+	margin-right: 20px;
+}
+.rules .rule__before4:before {
+	content: "4.";
+	color: #AAAAAA;
+	font-size: 30px;
+	margin-right: 20px;
+}
+.rules .steps {
+	list-style: none;
+	margin-top: 30px;
+	position: relative;
+}
+.rules .steps p {
+	width: 250px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.rules .step__item img {
+	width: 90px;
+	z-index: 2;
+	border: 3px solid #fff;
+	position: relative;
+}
+.steps:after {
+	content: "";
+	position: absolute;
+	left: 30%;
+	right: 20%;
+	top: 2.8em;
+	border-top: 3px dotted #aaa;
+	width: 450px;
+}
+.review {
+	background-image: url('/fone.jpeg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 400px;
+	background-position: 50% 100%;
+	position: relative;
+}
+.review .review__title {
+	font-size: 26px;
+	font-weight: bolder;
+	color: #333333;
+	text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.review .review__btn {
+	color: #fff;
+	margin-left: 300px;
+	padding: 4px 45px;
+}
+.review-card {
+	width: 100%;
+	height: 130px;
+	border: 1px solid #444;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 6px;
+}
+.review-card .fa-star {
+	color: #fdd835;
+}
+.review-card .border__review {
+	border-right: 2px dotted #444;
+	width: 20px;
+	height: 80px;
+	margin-right: 60px;
+}
+.review-card .user__review {
+	width: 250px;
+}
+.review-card p {
+	width: 650px;
+	color: #444;
+	margin-top: 10px;
+}
+.review-card .name__item {
+	font-size: 16px;
+	font-weight: bold;
+}
+.review-card, .contacts .link__item {
+	color: #444;
+	text-decoration: underline;
+}
+.time .time__number {
+	font-size: 28px;
+	color: #42a5f5;
+	font-weight: bolder;
+}
+.time .time__text {
+	color: #444;
+	font-size: 16px;
+}
+.contacts {
+	font-size: 12px;
+}
+.btn__time {
+	padding: 5px 64px;
+}
+footer {
+	background-color: #333333;
+}
+.footer-text {
+	color: #fff;
+	margin-top: 20px;
+}
+.modal-wrap, .review-wrap-window {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 4;
+}
+.modal-window, .reviev-window {
+	width: 400px;
+	height: 480px;
+	position: relative;
+	top: 100px;
+	left: 40%;
+	z-index: 3;
+	border: 1px solid #42a5f5;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 20px;
+}
+.hide {
+	display: none;
+}
+.show {
+	padding: 6px 44px;
+	margin-left: 40px;
+}
+.modal-wrap .btn__modal {
+
+	border-radius: 5px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.modal-wrap .form-group {
+	margin-top: 30px;
+	outline: none;
+}
+.title__window, .number__window {
+	font-size: 28px;
+	font-weight: bolder;
+}
+.text__window {
+	margin-top: 20px;
+}
+.reviev-window {
+	height: 700px;
+	border-radius: 0;
+	background-image: url('/iconfinder_users-9_984126.png');
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-position: 50% 100%;
+
+}
+.top__review {
+	margin-top: 30px;
+}
+.reviev-window .numbers {
+	width: 50px;
+	height: 40px;
+	border: 1px solid #42a5f5;
+	color: #444;
+	line-height: 40px;
+	font-size: 26px;
+	border-radius: 4px;
+}
+
+
+.user-help .user__form {
+	font-size: 26px;
+	color: #c62828;
+	margin: 0 10px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #000;
+	padding-left: 4px;
+}
+
+.btn__message {
+	margin-top: 50px;
+	
+}
+
+
+.user-help .user__form:hover {
+	color: yellow;
+	transition: all ease 1s;
+}
+
+
+input[type=radio] {
+	margin-left: 5px;
+}
+
+
+.reviev-window .upper__text{
+	font-size: 18px;
+}
+
+.dropdown-toggle {
+	
+
+	
+	text-align: center;
+}
+
+.dropdown-menu {
+background-color: #fdd835;
+}
+
+/* Медиа запросы */
+
+
+@media screen and (max-width:1196px){
+	.main .price li{
+		margin-left: 10px;
+	}
+	.submit__call {
+		left: 0;
+}
+
+}
+
+@media screen and (max-width:1066px){
+	
+	.nav-item {
+		margin-top: 0px;
+		margin-right: 15px;
+		width: 100px;
+
+	}
+}
+
+@media screen and (max-width:998px){
+	.main-logo , img {
+		width: 200px;
+	display: block;
+	margin: 0 auto;
+	}
+	.main-logo h1 ,.block-adv ul {
+	text-align: center;
+	}
+
+	.main .price  .price__item  {
+		font-size: 14px;
+	}
+	 .price__title span{
+		 font-size: 16px;
+	 }
+	img {
+		width: 130px;
+	} 
+	.nav-link{
+	display: flex;
+	justify-content: center;
+	}
+
+	.submit__call {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.photo__service {
+		width: auto;
+		display: block;
+	    
+	}
+	.main-service .size{
+		margin-top: 10px;
+	}
+}
+
